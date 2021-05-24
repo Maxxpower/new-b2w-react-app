@@ -153,6 +153,7 @@ const ChildCartItemsList = ({childItems,b2wginContext,env,sessionId}) =>{
                                                     <ConfigureButton  item={childItemAdded}  b2wginContext={b2wginContext} env={env} sessionId={sessionId}/>                           
                                                 </div>
                                                 <div className="col-xs-12 col-sm-2 col-lg-2">
+                                                    <RemoveButton item={childItemAdded} b2wginContext={b2wginContext} env={env} sessionId={sessionId}/>
                                                 </div>
                                                 {childItemAdded.childItems.length>0 ?
                                                     <div className="col-xs-12 col-sm-12 col-lg-12">
